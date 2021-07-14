@@ -1,0 +1,43 @@
+.track-main-container {
+  display: flex;
+  margin-left: 30px;
+  color: #ffffff;
+  font-weight: light;
+  width: 80vw;
+
+  cursor: pointer;
+  height: 50px;
+}
+.index-container {
+  width: 5%;
+  font-size: 12px;
+}
+.track-container {
+  width: 20%;
+  font-size: 14px;
+  height: 30px;
+  overflow-y: hidden;
+  margin-right: 60px;
+}
+.album-container {
+  width: 25%;
+  font-size: 14px;
+  height: 30px;
+  overflow-y: hidden;
+  margin-right: 60px;
+}
+.time-container {
+  width: 12%;
+  font-size: 14px;
+  text-decoration: none;
+}
+.artist-container {
+  width: 18%;
+  font-size: 14px;
+  overflow: hidden;
+}
+.added-container {
+  width: 20%;
+  font-size: 14px;
+  overflow: hidden;
+}

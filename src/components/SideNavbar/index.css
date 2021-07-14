@@ -1,0 +1,41 @@
+.side-nav-bar {
+  width: 20%;
+  max-width: 150px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+  background: #040306;
+}
+.logo-image {
+  left: 4.96%;
+  right: 2.44%;
+  top: 7.29%;
+  bottom: 6.06%;
+}
+.nav-links-container {
+  width: 100%;
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link {
+  width: 100%;
+}
+
+.nav-bar-icon {
+  color: #9b9b9b;
+  font-size: 45px;
+  padding-top: 5px;
+}
+.nav-bar-icon-heading {
+  color: #9b9b9b;
+  margin-top: 3px;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none !important;
+}

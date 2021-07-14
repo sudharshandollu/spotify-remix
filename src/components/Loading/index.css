@@ -1,0 +1,14 @@
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #393b40;
+  height: 100vh;
+}
+.loading-image {
+  width: 200px;
+}
+.loading-heading {
+  color: #ffffff;
+}

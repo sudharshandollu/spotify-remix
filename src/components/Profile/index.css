@@ -1,0 +1,60 @@
+.bg-container {
+  background-color: #393b40;
+  display: flex;
+}
+.profile-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-image {
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border-radius: 75px;
+}
+.user-name {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.followers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.followers-total {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  /* identical to box height */
+
+  color: #1db954;
+}
+.followers-heading {
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #9b9b9b;
+}
+.logout-button {
+  height: 40px;
+  width: 129px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  margin-top: 25px;
+}

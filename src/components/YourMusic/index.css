@@ -1,0 +1,36 @@
+.bg-container {
+  background-color: #393b40;
+  display: flex;
+}
+.main-container {
+  background-color: #393b40;
+  padding-top: 72px;
+  width: 100%;
+  margin: 40px;
+}
+.music-player {
+  position: fixed;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.music-player-text-container {
+  display: flex;
+}
+.music-bar {
+  align-self: center;
+}
+.your-music-heading {
+  color: white;
+}
+.music-player-song-image {
+  border-radius: 8px;
+  width: 90px;
+  padding: 20px;
+}
+.your-music-songs-cont {
+  margin-top: 20px;
+}

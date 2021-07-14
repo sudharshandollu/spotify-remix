@@ -1,0 +1,260 @@
+.main-container {
+  background-color: #393b40;
+  padding-top: 72px;
+}
+.bg-container {
+  background-color: #393b40;
+  display: flex;
+}
+.side-nav-bar {
+  min-height: 100vh;
+  width: 15%;
+
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editor-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-container {
+  width: 80%;
+}
+
+.bottom-group {
+  display: flex;
+  position: fixed;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  height: 50px;
+  width: 100%;
+  z-index: 10;
+  bottom: 0px;
+  padding-left: 10px;
+}
+
+.icons {
+  font-size: 24px;
+}
+
+.buttons-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.slider {
+  width: 100%;
+}
+
+.top-bar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #393b40;
+  color: white;
+  border: 1px solid white;
+}
+
+.search-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-input {
+  width: 250px;
+  height: 25px;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+}
+.logo-image {
+  width: 80%;
+  padding-top: 15px;
+}
+.nav-bar-icon {
+  color: #9b9b9b;
+  font-size: 45px;
+}
+.nav-bar-icon-heading {
+  color: #9b9b9b;
+  margin-top: 3px;
+  font-family: Assistant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none !important;
+}
+.nav-links-container {
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.playlists-unordered {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-left: 0px;
+}
+.main-container-heading {
+  color: #f8fafc;
+  padding-left: 30px;
+}
+.section {
+  margin-bottom: 45px;
+}
+.back-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.editors-picks-playlists-image {
+  width: 270px;
+  border-radius: 8px;
+  margin-right: 40px;
+}
+.editors-picks-playlists-header-container {
+  margin: 30px;
+  display: flex;
+}
+.editors-picks-playlists-header-child-container {
+  align-self: flex-end;
+}
+
+.tracks-header {
+  display: flex;
+  margin-left: 30px;
+  color: #ffffff;
+  font-weight: light;
+  width: 80vw;
+  overflow: hidden;
+  cursor: pointer;
+}
+.track-main-container {
+  display: flex;
+  margin-left: 30px;
+  color: #ffffff;
+  font-weight: light;
+  width: 80vw;
+
+  cursor: pointer;
+  height: 50px;
+}
+.index-container {
+  width: 5%;
+  font-size: 12px;
+}
+.track-container {
+  width: 20%;
+  font-size: 14px;
+  height: 30px;
+  overflow-y: hidden;
+  margin-right: 60px;
+}
+.album-container {
+  width: 25%;
+  font-size: 14px;
+  height: 30px;
+  overflow-y: hidden;
+  margin-right: 60px;
+}
+.time-container {
+  width: 12%;
+  font-size: 14px;
+  text-decoration: none;
+}
+.artist-container {
+  width: 18%;
+  font-size: 14px;
+  overflow: hidden;
+}
+.added-container {
+  width: 20%;
+  font-size: 14px;
+  overflow: hidden;
+}
+.horizontal {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.podcast-image {
+  width: 200px;
+  border-radius: 8px;
+}
+.podcast-container {
+  text-align: center;
+  margin: 30px;
+  width: 190px;
+  height: 250px;
+}
+.podcasts-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.podcast-name {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.podcast-track-count {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.podcasts-main-container {
+  margin-left: 30px;
+}
+.music-player {
+  position: fixed;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.music-player-text-container {
+  display: flex;
+}
+.music-bar {
+  align-self: center;
+  background-color: transparent;
+}
+.music-player-song-image {
+  border-radius: 8px;
+  width: 90px;
+  padding: 20px;
+}
